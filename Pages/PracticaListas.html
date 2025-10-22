@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Comentarios-->
+<head>
+    <!-- ====================== Metadatos ====================== -->
+    <meta charset="UTF-8">
+    <meta name="description" content="practicas-- html, css, js"> <!--Descripcion-->
+    <meta name="viewport" content="width=device-device initial-scale=1.0">
+    <meta name="keywords" content="HTM, CSS, Javascript">
+    <meta name="author" content="Jose_Mora">
+    <meta http-equiv="refresh" content="10">
+    <!-- ====================== Título e Iconos ====================== -->
+    <title>Practicas Listas</title>
+    <link  rel="icon" href="../Img/Icon/Gyarados.ico" type="image/x-icon">
+</head>
+<body>
+    <hr>
+    <!-- ====================== Barra de navegacion ====================== -->
+    <nav>
+        <a href="../index.html">Inicio</a> / 
+        <a href="../Pages/PracticaTexto.html">Práctica de Texto</a> / 
+        <a href="https://sites.google.com/view/moraestrellajose/inicio">Práctica de Builder (Google Site)</a> / 
+        <a href="https://josmmora.my.canva.site/">Práctica de Builder (Canva)</a> / 
+        <a href="../Pages/PracticaInteligenciaArtificial.html">Práctica de Inteligencia Artificial</a> / 
+        <a href="../Pages/PracticaListas.html">Práctica de Listas</a> / 
+        <a href="../Pages/PracticaImg.html">Práctica de Imagenes</a> / 
+        <a href="../Pages/PracticaAudio.html">Práctica de Audio</a> / 
+        <a href="../Pages/PracticaVideo.html">Práctica de Video</a> / 
+        <a href="../Pages/PracticaTablas.html">Práctica de Tablas</a> / 
+        <a href="../Pages/PracticaCss.html">Práctica de Css</a> / 
+        <a href="../Pages/PracticaCopyPaste.html">Práctica de CopyPaste</a> / 
+        <a href="../Pages/PracticaJavascript.html">Práctica de Javascript</a> / 
+        <a href="../Pages/PracticaControles.html">Práctica de Controles</a> / 
+        <a href="../Pages/PracticaFormulario.html">Práctica de Formulario</a> / 
+        <a href="../Pages/PracticaFormulario2.html">Práctica de Formulario-2</a> / 
+        <a href="../Pages/PracticaMenuHorizontal.html">Práctica de Menú Horizontal</a> / 
+        <a href="../Pages/PracticaMenuVertical.html">Práctica de Menú Vertical</a> / 
+        <a href="../Pages/PracticaCrazy.html">Práctica de Crazy</a> / 
+    </nav>
+    <hr>
+    <!-- =================== Practica de etiquetas de Listas =================== -->
+     <main>
+        <h1>Practica de Listas</h1>
+        <!-- =================== Listas ordenadas, no ordenadas, anidadas, Definicion =================== -->
+         <!-- =================== Listas Ordenadas =================== -->
+        <hr>
+        <h3>Listas ordenadas</h3>
+        <!-- Listas ordendas se las usa en el momento de mostrar secuencias o items que tienen --
+         un orden en especifico (Predefinido o inalterable) -->
+        <h2>Los dias de la semana (Orden por default)</h2>
+        <ol>
+            <li>Lunes</li>
+            <li>Martes</li>
+            <li>Miercoles</li>
+            <li>Jueves</li>
+            <li>Viernes</li>
+            <li>Sabado</li>
+            <li>Domingo</li>
+        </ol>
+        <h2>Los Meses del año (Orden personalizado Numeros romanos)</h2>
+        <ol type="I">
+            <li>Enero</li>
+            <li>Febre</li>
+            <li>Marzo</li>
+            <li>Abril</li>
+            <li>Mayo</li>
+        </ol>
+        <hr>
+         <!-- =================== Listas No Ordenadas =================== -->
+        <h3>Listas No Ordenadas</h3>
+        <!-- Listas ordendas no tienen un orden especifico, es decir no son predefinidas y su 
+        presentacion no importa -->
+        <h2>Receta para seco de Delfin (Viñeta por default)</h2>
+        <ul>
+            <li>Cebolla</li>
+            <li>Ajo</li>
+            <li>Pimiento</li>
+            <li>Tomate</li>
+            <li>Delfin</li>
+        </ul>
+        <!-- 
+            list-style-type: disc;
+            list-style-type: circle;
+            list-style-type: square;
+            list-style-type: decimal;
+            list-style-type: georgian;
+            list-style-type: katakana;
+            list-style-type: katakana-iroha;
+        -->
+        <h2>Receta para galletas navideña (Viñeta seleccionada)</h2>
+        <ul style="list-style-type: katakana-iroha;">
+            <li>Leche</li>
+            <li>Harina</li>
+            <li>Levadura</li>
+        </ul>
+
+        <!--  -->
+        <h2>Lista de pokemon (Viñeta personalizadas)</h2>
+        <ul style="list-style-image: url(../Img/Icon/Clefable.ico);">
+            <li>Abra</li>
+            <li>Aerodactyl</li>
+            <li>Alakazam</li>
+            <li>Arbok</li>
+            <li>Arcanine</li>
+        </ul>
+        <hr>
+         <!-- =================== Listas Anidadas =================== -->
+        <h3>Listas anidadas</h3>
+        <!-- Listas anidadas son, una lista dentro de otra, puede usar una OL dentro de una UL o al 
+         revez o en cualquier presentacion-->
+        <h2>Estaciones del año</h2>
+        <ol>
+            <li>Primavera
+                <ul>
+                    <li>Marzo</li>
+                    <li>Abril</li>
+                    <li>Mayo</li>
+                </ul>
+            </li>
+            <li>Verano
+                <ul>
+                    <li>Junio</li>
+                    <li>Julio</li>
+                    <li>Agosto</li>
+                </ul>
+            </li>
+            <li>Otoño
+                <ul>
+                    <li>Septiembre</li>
+                    <li>Octubre</li>
+                    <li>Noviembre</li>
+                </ul>
+            </li>
+            <li>Invierno
+                <ul>
+                    <li>Diciembre</li>
+                    <li>Enero</li>
+                    <li>Febrero</li>
+                </ul>
+            </li>
+        </ol>
+     </main>
+    <hr>
+        <!-- =================== Listas de definicion =================== -->
+        <h3>Listas Definicion</h3>
+        <!-- Listas Definicion, se usa para enlistar normalmente varias preguntas con sus 
+        respectivas respuesta -->
+        <dl>
+            <dt>Atiende los fines de semana:</dt>
+            <dd>No, no lo hacemos</dd>
+            <dt>Atiende los Domingos:</dt>
+            <dd>No, es parte de un fin de semana</dd>
+            <dt>Atiende los feriados:</dt>
+            <dd>No, tambien tenemos familia</dd>
+            
+        </dl>
+    <!-- =================== Pie de pagina =================== -->
+    <hr>
+    <footer>
+        <p>Desarrollado por:  Jose Mora</p>
+        <p>
+            <a href="mailto:josmmora@espol.edu.ec">Correo</a> | 
+            <a href="tel: =593962697341">Teléfono Celular</a>
+        </p>
+        <p>@ 2025 - Página practicas academicas | ESPOL </p>
+    </footer>
+</body>
+</html>

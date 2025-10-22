@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Comentarios-->
+<head>
+    <!-- ====================== Metadatos ====================== -->
+    <meta charset="UTF-8">
+    <meta name="description" content="practicas-- html, css, js"> <!--Descripcion-->
+    <meta name="viewport" content="width=device-device initial-scale=1.0">
+    <meta name="keywords" content="HTM, CSS, Javascript">
+    <meta name="author" content="Jose_Mora">
+    <meta http-equiv="refresh" content="10">
+    <!-- ====================== Título e Iconos ====================== -->
+    <title>Practicas Css</title>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartlet&family=Bebas+Neue&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Noto+Sans+Bhaiksuki&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link  rel="icon" href="../Img/Icon/Pikachu.ico" type="image/x-icon">
+    <!-- No es necesario aplicar el reset siempre -->
+    <!--
+    <link rel="stylesheet" href="../Css/style_reset.css">  Con esta hoja de estilo se resetea el formate del navegador/browser 
+    -->
+    <!--<style>
+        p{
+            background: blue;
+        }
+        p{
+            background: green;
+        }
+    </style> -->
+
+    <link rel="stylesheet" href="../Css/style.css">
+</head>
+<body class="roboto-mono-">
+    <hr>
+    <!-- ====================== Barra de navegacion ====================== -->
+    <header>
+        <nav>
+            <a href="../index.html">Inicio</a> / 
+            <a href="../Pages/PracticaTexto.html">Práctica de Texto</a> / 
+            <a href="https://sites.google.com/view/moraestrellajose/inicio">Práctica de Builder (Google Site)</a> / 
+            <a href="https://josmmora.my.canva.site/">Práctica de Builder (Canva)</a> / 
+            <a href="../Pages/PracticaInteligenciaArtificial.html">Práctica de Inteligencia Artificial</a> / 
+            <a href="../Pages/PracticaListas.html">Práctica de Listas</a> / 
+            <a href="../Pages/PracticaImg.html">Práctica de Imagenes</a> / 
+            <a href="../Pages/PracticaAudio.html">Práctica de Audio</a> / 
+            <a href="../Pages/PracticaVideo.html">Práctica de Video</a> / 
+            <a href="../Pages/PracticaTablas.html">Práctica de Tablas</a> / 
+            <a href="../Pages/PracticaCss.html">Práctica de Css</a> / 
+            <a href="../Pages/PracticaCopyPaste.html">Práctica de CopyPaste</a> / 
+            <a href="../Pages/PracticaJavascript.html">Práctica de Javascript</a> / 
+            <a href="../Pages/PracticaControles.html">Práctica de Controles</a> / 
+            <a href="../Pages/PracticaFormulario.html">Práctica de Formulario</a> / 
+            <a href="../Pages/PracticaFormulario2.html">Práctica de Formulario-2</a> / 
+            <a href="../Pages/PracticaMenuHorizontal.html">Práctica de Menú Horizontal</a> / 
+            <a href="../Pages/PracticaMenuVertical.html">Práctica de Menú Vertical</a> / 
+            <a href="../Pages/PracticaCrazy.html">Práctica de Crazy</a> / 
+        </nav>
+    </header>
+    <hr>
+    <!-- =================== Practica de etiquetas de Css =================== -->
+     <main>
+        <h1 class="Titulo">Practica de Css</h1>
+        <span>
+            Css nos ayuda/sirve para dar estilo y diseño a nuestra pagina web. <br>
+            Para aplicarlo tenemos 3 opciones: <br>
+        </span>
+        <div class="comportamiento">
+            <p class="caja">
+                1. -En linea - Codigo embedido <br>
+                style="color: red;">Linea de estilo con codigo embedido <br>
+            </p>
+            <p class="caja">
+                2. -Codigo Interno - Codigo en la cabecera <br>
+                El codigo debe ir en la cabecera del file
+                <!--Debemos explicar los selectores-->
+                style <br>
+                    p{ <br>
+                        background: blue; <br>
+                    } <br>
+                style <br>
+            </p>
+            <p class="caja">
+                3. -Externo - File.css <br>
+                link rel="stylesheet" href="estilo.css">
+            </p>
+        </div>
+
+        <div class="comportamiento">
+            <p class="caja">
+                Modelo cajas: #1<br>
+                Todo elemento HTML se presenta en pantalla se debe tratar como una caja.
+            </p>
+            <p class="caja">
+                Modelo cajas: #2<br>
+                Todo elemento HTML se presenta en pantalla se debe tratar como una caja.
+            </p>
+        </div>
+        <section class="Resalta">
+            <article>
+                <h4>
+                    Notas:
+                </h4>
+                <p>
+                    1. -Siempre se ejecuta de arriba hacia abajo, es decir la misma etiqueta la puede escribir 2 veces y presentara el ultimo efecto programado
+                </p>
+                <p>
+                    2. -Tener cuidado con montar las etiquetas en el diseño
+                </p>
+                <p>
+                    3. -Valide resetear antes de aplicar su diseño: Dependiendo de su diseño
+                </p>
+            </article>
+        </section>
+        <span>
+            <h3>Hipervinculos</h3>
+            <hr>
+            <h4>Hipervinculo: Abrir nueva pestaña</h4>
+            <p>
+                Atributo target="_blank": Este atributo se utiliza para especificar cómo se debe abrir el hipervínculo. Puede ser _blank, _self, _parent, o cualquier nombre diferente que no sea de los cuatro mencionados, que se considera _blank para abrir en una nueva pestaña o ventana. Los hipervínculos son enlaces que permiten a los usuarios navegar a otra página web. Para abrir un hipervínculo en una nueva pestaña, se utiliza el atributo target="_blank" en el elemento <a> del hipervínculo. Esto permite que el navegador abra el enlace en una nueva pestaña o ventana, dependiendo de la configuración del navegador del usuario. Es importante usar el atributo
+                <a href="../Pages/PracticaAudio.html" target="_blank">Abrir en una nueva pestaña</a>
+            </p>
+            <br>
+            <h4>Hipervinculo: Abrimos en la misma pestaña</h4>
+            <p>
+                Los hipervínculos permiten a los usuarios navegar entre diferentes páginas web de manera sencilla. Sin embargo, no todos los navegadores permiten abrir enlaces en la misma pestaña. Para aquellos que desean mantener la navegación dentro de su sitio web o evitar que los usuarios se distraigan con otras páginas externas, es posible utilizar HTML y la propiedad target del elemento de ancla para abrir un enlace en la misma pestaña. Esto se logra estableciendo el valor «_self» para el atributo «target» del enlace.
+                <a href="../Pages/PracticaAudio.html" target="_self">Abrir en la misma pestaña</a>
+            </p>
+            <br>
+            <h4>Hipervinculo: Abrir en nueva pestaña, modo seguro</h4>
+            <p>
+                Atributo rel="noopener noreferrer": Este es el uso combinado de los atributos noopener y noreferrer, que se utilizan para mejorar la seguridad y la privacidad al abrir hipervínculos.
+                Al usar estos atributos, se puede garantizar que los hipervínculos se abran en una nueva pestaña o ventana, proporcionando una experiencia de navegación más segura y responsable.
+                <a href="../Pages/PracticaAudio.html" target="_blank" rel="noopener noreferrer">Abrir en una nueva pestaña (Modo Seguro)</a>
+            </p>
+            <br>
+        </span>
+        <hr>
+        <h2>Botones con estilo</h2>
+        <h6>Evento over</h6>
+        <!-- Selector #1 -->
+        <button>Presioname #1</button>
+        <!-- Selector #2 -->
+        <button class="Btn">Presioname #2</button>
+     </main>
+    
+    <!-- =================== Pie de pagina =================== -->
+    <hr>
+    <footer>
+        <p>Desarrollado por:  Jose Mora</p>
+        <p>
+            <a href="mailto:josmmora@espol.edu.ec">Correo</a> | 
+            <a href="tel: =593962697341">Teléfono Celular</a>
+        </p>
+        <p>@ 2025 - Página practicas academicas | ESPOL </p>
+    </footer>
+</body>
+</html>

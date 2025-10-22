@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Comentarios-->
+<head>
+    <!-- ====================== Metadatos ====================== -->
+    <meta charset="UTF-8">
+    <meta name="description" content="practicas-- html, css, js"> <!--Descripcion-->
+    <meta name="viewport" content="width=device-device initial-scale=1.0">
+    <meta name="keywords" content="HTM, CSS, Javascript">
+    <meta name="author" content="Jose_Mora">
+    <meta http-equiv="refresh" content="300">
+    <!-- ====================== Título e Iconos ====================== -->
+    <title>Practicas Imagenes</title>
+    <link  rel="icon" href="../Img/Icon/Zubat.ico" type="image/x-icon">
+</head>
+<body>
+    <hr>
+    <!-- ====================== Barra de navegacion ====================== -->
+    <nav>
+        <a href="../index.html">Inicio</a> / 
+        <a href="../Pages/PracticaTexto.html">Práctica de Texto</a> / 
+        <a href="https://sites.google.com/view/moraestrellajose/inicio">Práctica de Builder (Google Site)</a> / 
+        <a href="https://josmmora.my.canva.site/">Práctica de Builder (Canva)</a> / 
+        <a href="../Pages/PracticaInteligenciaArtificial.html">Práctica de Inteligencia Artificial</a> / 
+        <a href="../Pages/PracticaListas.html">Práctica de Listas</a> / 
+        <a href="../Pages/PracticaImg.html">Práctica de Imagenes</a> / 
+        <a href="../Pages/PracticaAudio.html">Práctica de Audio</a> / 
+        <a href="../Pages/PracticaVideo.html">Práctica de Video</a> / 
+        <a href="../Pages/PracticaTablas.html">Práctica de Tablas</a> / 
+        <a href="../Pages/PracticaCss.html">Práctica de Css</a> / 
+        <a href="../Pages/PracticaCopyPaste.html">Práctica de CopyPaste</a> / 
+        <a href="../Pages/PracticaJavascript.html">Práctica de Javascript</a> / 
+        <a href="../Pages/PracticaControles.html">Práctica de Controles</a> / 
+        <a href="../Pages/PracticaFormulario.html">Práctica de Formulario</a> / 
+        <a href="../Pages/PracticaFormulario2.html">Práctica de Formulario-2</a> / 
+        <a href="../Pages/PracticaMenuHorizontal.html">Práctica de Menú Horizontal</a> / 
+        <a href="../Pages/PracticaMenuVertical.html">Práctica de Menú Vertical</a> / 
+        <a href="../Pages/PracticaCrazy.html">Práctica de Crazy</a> / 
+    </nav>
+    <hr>
+    <!-- =================== Practica de etiquetas de Imagenes =================== -->
+     <main>
+        <!-- =================== Frame para importar una pagina externa dentro de mi sitio =================== -->
+        <iframe 
+            title=""
+            width="300"
+            height="300"
+            src="https://www.friv.com/"
+            style="border: 1px solid">
+        </iframe>
+        <!-- =================== Frame con video de youtube =================== -->
+        <iframe width="300" 
+            height="300" 
+            src="https://www.youtube.com/embed/AHzxeA2aEk0?si=CD3hIhkOhXs9A0ZH" 
+            title="YouTube video player" 
+            frameborder="1" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+            picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+        <hr>
+        <!-- =================== Etiqueta de imagenes =================== -->
+        <!--  Se debe usar alt dentro de la etiqueta de imagen para describir en palabras la imagen -->
+        <!-- Esta descripcion ayuda a: el SEO, tener texto descriptivo que se usara en el
+        momento en que la imagen no pueda ser cargada 
+        Por procesos de accesibilidad a no videntes-->
+        <h3>Etiqueta IMG (basica - imagen local)</h3>
+        <img src="../Img/Cuasar.jpg"
+        width="300px"
+        height="300px"
+        alt="Cuasar en momento de exploxion">
+        <hr>
+
+        <h3>Etiqueta IMG (medio - imagen externa)</h3>
+        <img src="https://img.freepik.com/free-photo/beautiful-view-sunset-sea_23-2148019892.jpg?size=626&ext=jpg"
+        width="300px"
+        height="300px"
+        alt="Espacio profundo rojo">
+        <hr>
+        <!-- =================== Mapeo de imagenes =================== -->\
+        <img 
+            src="../Img/Cloud.png" 
+            alt="Red de computadoras"
+            usemap="#NubeComputadora"
+        >
+        <map name="NubeComputadora">
+            <area
+                shape="poly"
+                alt="computadora de escritorio"
+                coords="414,54,478,85,513,66,546,85,539,208,478,224,348,135,397,115,411,52"
+                href="../Pages/Nube/Pc.html"            
+            >
+            </area>
+        </map>
+        <hr>
+        <!-- =================== Imagen responsiva =================== -->
+        <!-- El diseño responsivo: pagina y contenido (solo imagenes en esta practica)  -->
+        <!-- 1.- Tener 4 imagenes -->
+        <!-- 2.- Nombrar cada imagen segun el tamaño que va a utilizar -->
+        <!-- 3.- Redimencionar la imagen segun el valor condicionado (Exito) -->
+        <h3>Imagen responsiva (Adaptable segun las dimensiones de la pantalla)</h3>
+        <picture>
+            <source media="(min-width: 750px)" srcset="../Img/Hacker750.jpg">
+            <source media="(min-width: 550px)" srcset="../Img/Hacker550.jpg">
+            <source media="(min-width: 400px)" srcset="../Img/Hacker400.jpg">
+            <source media="(min-width: 300px)" srcset="../Img/Hacker300.jpg">
+            <img src="../Img/HackerAll.jpg" alt="Hacker de todos">
+        </picture> 
+    </main>
+    <!-- =================== Pie de pagina =================== -->
+    <hr>
+    <footer>
+        <p>Desarrollado por:  Jose Mora</p>
+        <p>
+            <a href="mailto:josmmora@espol.edu.ec">Correo</a> | 
+            <a href="tel: =593962697341">Teléfono Celular</a>
+        </p>
+        <p>@ 2025 - Página practicas academicas | ESPOL </p>
+    </footer>
+</body>
+</html>
